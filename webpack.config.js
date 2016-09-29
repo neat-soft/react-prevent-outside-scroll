@@ -1,8 +1,11 @@
+const path = require('path')
+const pkg = require('./package')
+
 module.exports = {
   entry: './src/index.jsx',
   output: {
-    path: './dist',
-    filename: 'react-prevent-outside-scroll.js',
+    path: path.dirname(pkg.main),
+    filename: path.basename(pkg.main),
     library: 'ReactPreventOutsideScroll',
     libraryTarget: 'umd',
   },
