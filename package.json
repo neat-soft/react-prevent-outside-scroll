@@ -1,0 +1,23 @@
+{
+  "name": "react-prevent-outside-scroll",
+  "version": "0.0.1",
+  "description": "A react component that prevents outside scroll when inside scroll to the edge",
+  "main": "dist/react-prevent-outside-scroll.js",
+  "keywords": [
+    "react",
+    "scroll",
+    "prevent"
+  ],
+  "scripts": {
+    "dev": "rm -fr dist && webpack --debug --devtool cheap-inline-source-map --output-pathinfo --watch --progress"
+  },
+  "author": "kerryChen95",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0"
+  }
+}
