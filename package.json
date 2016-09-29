@@ -13,7 +13,9 @@
     "prevent"
   ],
   "scripts": {
-    "dev": "rm -fr dist && webpack --debug --devtool cheap-inline-source-map --output-pathinfo --watch --progress"
+    "prepublish": "npm run clean && webpack --progress",
+    "clean": "rm -fr dist",
+    "dev": "npm run clean && webpack --debug --devtool cheap-inline-source-map --output-pathinfo --watch --progress"
   },
   "author": "kerryChen95",
   "license": "MIT",
