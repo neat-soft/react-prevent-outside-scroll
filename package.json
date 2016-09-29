@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A react component that prevents outside scroll when inside scroll to the edge",
   "main": "dist/react-prevent-outside-scroll.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kerryChen95/react-prevent-outside-scroll"
+  },
   "keywords": [
     "react",
     "scroll",
